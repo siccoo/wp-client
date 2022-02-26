@@ -31,7 +31,27 @@ const Chat = () => {
                 </div>
             </div>
             <div className='chat__body'>
-                
+                <p className='chat__message'>
+                    <span className='chat__name'>Laka</span>
+                    This is the chat__message
+                    <span className='chat__timestamp'>
+                        {new Date().toUTCString()}
+                    </span>
+                </p>
+                <p className='chat__message chat__receiver'>
+                    <span className='chat__name'>Martin</span>
+                    This is the chat message back
+                    <span className='chat__timestamp'>
+                        {new Date().toUTCString()}
+                    </span>
+                </p>
+                <p className='chat__message'>
+                    <span className='chat__name'>Laka</span>
+                    This is the chat message again
+                    <span className='chat__timestamp'>
+                        {new Date().toUTCString()}
+                    </span>
+                </p>
             </div>
             <div className='chat__footer'></div>
         </div>
