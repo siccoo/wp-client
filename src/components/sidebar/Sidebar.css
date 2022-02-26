@@ -45,3 +45,15 @@
     color: #808080;
     padding: 10px;
 }
+
+.sidebar__searchContainer > input {
+    border: none;
+    outline-width: 0;
+    margin-left: 10px;
+}
+
+.sidebar__chats {
+    flex: 1;
+    background-color: #ffffff;
+    overflow: scroll;
+}
